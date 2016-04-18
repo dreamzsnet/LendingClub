@@ -3,9 +3,6 @@ library(aod) # Analysis
 library(dplyr) # data manipulation 
 library(ggplot2) # visualization
 
-# Set Working Directory
-setwd("C:\\Users\\DELL\\Documents\\R\\DataIncubator")
-
 # Clean the Environment
 rm(list = ls())
 
