@@ -281,11 +281,11 @@ with(model, pchisq(null.deviance - deviance, df.null - df.residual, lower.tail =
 # Model's log liklihood
 logLik(model)
 
-## Conclusion: As shown by the exploratory and the predictive analysis, borrow with longer
-## history of employment, higher annual income, lower debt to income ration and has their own
-## home or mortgage tend to have good credit grade/ratings and tend to payoff their loans
-## within the loan tenure. As opposed, borrow with records of delinquencies over past two years
-## have inquired frequently to get loan (desparation), have public records of bankruptcies 
+## Conclusion: As shown by the exploratory and the predictive analysis, borrower with longer
+## history of employment, higher annual income, lower debt to income ratio and has their own
+## home or mortgage tend to have good credit ratings/grade and tend to payoff their loans
+## within the loan tenure. As opposed, borrower with records of delinquencies over past two years
+## have inquired frequently to get loan (shown desparation), have public records of bankruptcies 
 ## and exhausted their revolving credits tend to get lower credit rating/grade and tends to 
 ## default. Hence, the lenders should careful enough to assess these factors before lending 
 ## their nest eggs to the prospect borrowers.
