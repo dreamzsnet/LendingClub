@@ -289,5 +289,3 @@ logLik(model)
 ## and exhausted their revolving credits tend to get lower credit rating/grade and tends to 
 ## default. Hence, the lenders should careful enough to assess these factors before lending 
 ## their nest eggs to the prospect borrowers.
-
- $ heroku buildpacks:set heroku/php
