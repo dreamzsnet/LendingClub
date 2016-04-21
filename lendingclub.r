@@ -1,6 +1,6 @@
 ## The project is based on the Lending Club's Loan Data for the Year of 2015. 
 ## The project intends to provide an insight on Loan's Performance based on the 
-## various variables that were captured by the Lending Club like "Loan Amount","Borrower's Grade", "Employment Grade" etc. 
+## various variables that were captured by the Lending Club like "Loan Amount","Borrower's Grade", "Employment length" etc. 
 
 # library packages
 library(aod) # Analysis
@@ -115,8 +115,7 @@ loan$new_status <- factor(ifelse(loan$loan_status %in% c("Current", "Fully Paid"
 ggplot(loan, aes(x = grade, fill = new_status)) + geom_bar(position = "fill")
 
 ## Loan's Grade is positively correlated with Loan's Performance. 
-## Higher the Loan Grade higher the Default rates
-
+## Lower the Loan Grade higher the Default rates
 
 # Performance of Loans by Home Ownership Type
 ggplot(loan, aes(x = home_ownership, fill = new_status)) + geom_bar(position = "fill")
